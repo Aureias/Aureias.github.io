@@ -1,0 +1,102 @@
+.contact-container{
+
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: 450px;
+    margin-top: 150px;
+    justify-content: center;
+
+
+
+}
+
+.contact-form-container{
+
+    height:540px;
+    background-color: transparent;
+
+    border-color: #0c4e8b;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.contact-name{
+
+display: block;
+
+}
+
+.contact-name .contact-name-box{
+
+margin-top: 25px;
+padding:10px;
+width: 350px;
+font-size: 17px;
+outline:none;
+border-image:linear-gradient(#1a81e0, #0c4e8b) 5;
+border-width: 2px;
+
+
+}
+
+
+
+.contact-email{
+
+    display:block;
+
+}
+
+.contact-email-box{
+
+    outline: none;
+    margin-top: 25px;
+    padding:10px;
+    width: 350px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    border-image:linear-gradient(#1a81e0, #0c4e8b) 5;
+    border-width: 2px;
+    
+
+}
+
+
+
+
+.contact-message-box{
+
+    border-image:linear-gradient(#1a81e0, #0c4e8b) 5;
+    border-width: 2px;
+
+
+    font-size:17px;
+    resize:none;
+    outline: none;
+
+}
+
+.submit-button{
+font-family: 'Roboto', sans-serif;
+padding: 15px;
+padding-left: 25px;
+padding-right: 25px;
+color:white;
+background-color: rgb(20, 20, 20);
+font-size: 15px;
+font-weight: bold;
+margin-top: 6px;
+cursor: pointer;
+border-image:linear-gradient(#1a81e0, #0c4e8b) 5;
+border-width: 2px;
+transition: color, 0.5s;
+
+}
+
+.submit-button:hover{
+
+    color:black;
+    background-color: white;
+
+}

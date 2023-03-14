@@ -1,0 +1,48 @@
+.intro-box{
+
+
+    background-color: rgba(255, 255, 255, 0);
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    width:50%;
+    height:25%;
+    margin: 0 auto;
+    top:30%;
+
+
+}
+
+.name{
+
+    color: rgb(0, 0, 0);
+
+}
+
+.profile-box{
+z-index: 1;
+height:260px;
+width: 550px;
+display: inline-block;
+position: absolute;
+top:20%;
+left:200px;
+
+
+background-image:linear-gradient(to left, #1a81e0 25%, #0c4e8b 75%) 
+
+}
+
+.profile-description{
+
+    line-height: 55px;
+    display: block;
+    margin-top: 5px;
+    height:250px;
+    background-color: rgb(20, 20, 20);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+}
+

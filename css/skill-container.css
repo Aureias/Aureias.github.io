@@ -1,0 +1,85 @@
+.skillset-container{
+
+display: grid;
+position: absolute;
+
+grid-template-columns: 200px 200px 200px;
+top:215px;
+right:190px;
+
+column-gap: 40px;
+
+}
+
+
+
+
+
+
+.skillset-container .skill{
+
+color:white;
+background-color: transparent;
+border-image:linear-gradient(#1a81e0, #0c4e8b) 30;
+border-style: solid;
+border-width: 3px;
+display: inline-block;
+border-radius:10px;
+font-family: 'Roboto', sans-serif, bold;
+font-size:50px;
+color:#ffffff;
+
+transition:1s;
+
+
+}
+
+
+
+.skillset-container .image-row .skill-image{
+    height:150px;  
+    margin-top:15px;  
+    object-fit: cover;
+
+
+
+}
+
+.skillset-container .image-row {
+
+    background-color:transparent;
+    margin-bottom: 0px;
+}
+
+
+.skillset-container .skill .skill-title .skill-name{
+    margin-top:20px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    font-size: 20px;
+
+}
+
+
+#skill-1:hover{
+
+    background-color: white;
+    padding:20px;
+    color:black;
+}
+
+#skill-2:hover{
+
+    background-color: white;
+    padding:20px;
+    color:black;
+}
+
+#skill-3:hover{
+
+    background-color: white;
+    padding:20px;
+    color:black;
+}
+
+

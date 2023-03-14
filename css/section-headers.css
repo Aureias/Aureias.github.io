@@ -1,0 +1,105 @@
+.about-header{
+    
+    background-color: transparent;
+    
+   
+    
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    margin-top: 65px;
+    font-size: 50px;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+}   
+.about-header .d1{
+
+background-color: #1a81e0;
+padding-left:95px;
+padding-right:35px;
+height:7px;
+padding-bottom:10px;
+position: absolute;
+z-index:-1;
+bottom: 3px;
+right:-15px;
+
+
+
+
+}
+
+
+
+
+.projects-header{
+
+    background-color: transparent;
+    
+   
+    
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    margin-top: 65px;
+    font-size: 50px;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    
+}   
+
+.projects-header .d2{
+
+    background-color: #1a81e0;
+    padding-left:150px;
+    padding-right:35px;
+    height:7px;
+    padding-bottom:10px;
+    position: absolute;
+    z-index:-1;
+    bottom: 3px;
+    right:-15px;
+    
+    
+    
+    
+    }
+
+
+
+
+    .contact-header{
+
+    background-color: transparent;
+    
+   
+    
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    margin-top: 65px;
+    font-size: 50px;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    
+    }   
+    
+    .contact-header .d2{
+    
+        background-color: #1a81e0;
+        padding-left:140px;
+        padding-right:35px;
+        height:7px;
+        padding-bottom:10px;
+        position: absolute;
+        z-index:-1;
+        bottom: 3px;
+        right:-15px;
+        
+        
+        
+        
+        }
