@@ -1,0 +1,145 @@
+#about-container{
+
+    display:grid;
+    grid-template-columns: minmax(0,1fr) 1fr;
+    background-color: transparent;
+    height:900px;
+    column-gap:100px;  
+}
+
+.about-sects{
+
+    background-color:transparent;
+    
+}
+
+
+
+#about-desc{
+
+    background-color: transparent;
+    padding-bottom:30%;
+    padding-top:30%;
+    margin:5%;
+    border-top-style: solid;
+    border-width: 15px;
+    border-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+
+
+    
+}
+
+#about-desc-text{
+
+    color:rgb(255, 255, 255);
+    position: absolute; 
+    top:15%;
+    font-size: 35px;
+    font-family: "Roboto";
+    line-height: 175%;
+
+}
+
+
+#about-sect-right{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: top;
+
+
+
+
+}
+
+.skill-icons{  
+
+    background: transparent;
+
+    border-image:linear-gradient(#1a81e0, #0c4e8b) 5;
+
+
+    color: rgb(255, 255, 255);
+
+    height:252px;
+    width:192px;
+    max-width: 192px;
+    max-height: 252px;
+
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+
+    border-style: solid;
+    border-width: 5px;
+    
+
+    
+}
+
+.skill-image{
+
+    margin-top: 15px;
+    height:125px;
+    object-fit: cover;
+
+}
+
+.skill-title{   
+
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+
+}
+
+#html-box{
+
+    margin-top: 30%;
+    transition: all 0.5s;
+
+}
+
+#html-box:hover{
+
+    margin-top: 35%;
+
+    color:rgb(65, 147, 194);
+    background: white;
+
+}
+
+#css-box{
+    transition: all 0.5s;
+
+}
+
+#css-box:hover{
+
+    margin-top: 15%;
+
+    color:rgb(65, 147, 194);
+    background: white;
+
+}
+
+#js-box{
+
+    margin-top: 40%;
+
+    transition: all 0.5s;
+}
+
+
+#js-box:hover{
+
+    margin-top: 45%;
+
+    color:rgb(65, 147, 194);
+    background: white;
+
+}

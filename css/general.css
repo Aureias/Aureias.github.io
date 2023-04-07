@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(20, 20, 20);
+    
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.home-background{
+    text-align: center;
+    background: url('/background-images/snow-background.jpg');
+    background-size:cover;
+    height: 106vh;
+    z-index: 0;
+    position: relative;
+    border-bottom-color: black;
+    
+    
+
+}
+
+.about-background{
+    text-align: center;
+    opacity: 1;
+    background-color: rgb(25, 25, 25);
+    height: 106vh;
+    z-index: 0;
+    position: relative;
+    border-bottom-color: #05131d;
+    
+
+}
+
+.projects-background{
+
+    text-align: center;
+    opacity: 1;
+    background-color: rgb(25, 25, 25);
+    height: 106vh;
+    z-index: 0;
+    position: relative;
+    border-bottom-color: #05131d;
+    
+
+
+
+}
+
+.contact-background{
+
+    text-align: center;
+    opacity: 1;
+    
+    background-color: rgb(25, 25, 25);
+
+    height: 106vh;
+    z-index: 0;
+    position: relative;
+    border-bottom-color: #05131d;
+
+
+
+}
+
+
